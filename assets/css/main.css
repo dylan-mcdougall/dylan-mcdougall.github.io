@@ -1343,6 +1343,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
+			width: 100%;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
 		}
@@ -1366,10 +1367,6 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
-				}
-
-				#header nav ul li.testimonials a {
-					padding: 0 .25rem 0 .25rem;
 				}
 
 					#header nav ul li a:hover {
