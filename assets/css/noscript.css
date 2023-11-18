@@ -14,8 +14,6 @@
 		}
 
 		body.is-preload #header .content .inner {
-			display: flex;
-			flex-direction: column;
 			max-height: none;
 			padding: 3rem 2rem;
 			opacity: 1;
