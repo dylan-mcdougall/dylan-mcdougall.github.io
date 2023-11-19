@@ -1,9 +1,3 @@
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -78,15 +72,10 @@
 					if ($article.length == 0)
 						return;
 
-				// Handle lock.
-
-					// Already locked? Speed through "show" steps w/o delays.
 						if (locked || (typeof initial != 'undefined' && initial === true)) {
 
-							// Mark as switching.
 								$body.addClass('is-switching');
 
-							// Mark as visible.
 								$body.addClass('is-article-visible');
 
 							// Deactivate all articles (just in case one's already active).
