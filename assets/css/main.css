@@ -1611,6 +1611,10 @@ input, select, textarea {
 			margin-top: 2rem;
 		}
 
+		.skills-list {
+			display: flex;
+		}
+
 
 			#main article.active {
 				-moz-transform: translateY(0);
