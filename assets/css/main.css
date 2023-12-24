@@ -1613,6 +1613,12 @@ input, select, textarea {
 
 		.skills-list {
 			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.skills-list > li {
+			margin-left: 1.5rem;
+			list-style: none;
 		}
 
 
